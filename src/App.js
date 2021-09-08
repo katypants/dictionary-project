@@ -1,14 +1,31 @@
 import React from "react";
 import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>📖 Dictionary</h1>
-      </header>
+      <div className="container">
+        <header className="Header">
+          <h1>📖 Dictionary</h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="Footer">
+          <small>
+            <a
+              href="https://github.com/katypants/dictionary-project"
+              target="_blank"
+              rel="noreferer"
+              className="Footer-link"
+            >
+              Open-source code
+            </a>{" "}
+            by Kate Dowd
+          </small>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
