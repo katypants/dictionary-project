@@ -17,7 +17,7 @@ export default function App() {
             <a
               href="https://github.com/katypants/dictionary-project"
               target="_blank"
-              rel="noreferer"
+              rel="noreferrer"
               className="Footer-link"
             >
               Open-source code
