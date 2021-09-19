@@ -10,17 +10,18 @@ export default function App() {
           <h1>📖 Dictionary</h1>
         </header>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="dictionary" />
         </main>
         <footer className="Footer">
           <small>
+            Open source{" "}
             <a
               href="https://github.com/katypants/dictionary-project"
               target="_blank"
               rel="noreferrer"
               className="Footer-link"
             >
-              Open-source code
+              code
             </a>{" "}
             by Kate Dowd
           </small>

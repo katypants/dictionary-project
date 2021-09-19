@@ -1,3 +1,15 @@
+:root {
+  --color-one: #ececec;
+  --color-two: #9fd3c7;
+  --color-three: #385170;
+  --color-four: #142d4c;
+}
+
+body {
+  background: var(--color-two);
+  color: var(--color-four);
+}
+
 .Header {
   text-align: center;
   margin: 30px 0;
@@ -10,4 +22,6 @@
 
 .Footer-link {
   text-decoration: none;
+  color: var(--color-three);
+  font-weight: bold;
 }

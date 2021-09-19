@@ -1,0 +1,32 @@
+:root {
+  --color-one: #ececec;
+  --color-two: #9fd3c7;
+  --color-three: #385170;
+  --color-four: #142d4c;
+}
+
+.Phonetic {
+  margin: 20px 0;
+}
+
+.Phonetic i {
+  color: var(--color-three);
+}
+
+.Phonetic a {
+  border: 2px solid var(--color-three);
+  padding: 8px;
+  margin-right: 10px;
+  border-radius: 30px;
+  transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+  background: var(--color-two);
+  color: var(--color-four);
+}
+
+.Phonetic .Text {
+  color: var(--color-three);
+  font-weight: bold;
+}
