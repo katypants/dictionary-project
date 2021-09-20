@@ -5,6 +5,11 @@
   --color-four: #142d4c;
 }
 
+.App {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
 body {
   background: var(--color-two);
   color: var(--color-four);
